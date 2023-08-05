@@ -9,10 +9,11 @@ import sys
 
 def main(args=sys.argv[:1]):
     """ Main"""
-   # print("Usage: %s" % os.path.basename(sys.argv[0]))
-    print("args")
+    print("Usage: %s" % os.path.basename(sys.argv[0]))
+   # print("args")
     return 0
 
 if __name__ == "__main__":
     sys.exit(main())
+   
 
